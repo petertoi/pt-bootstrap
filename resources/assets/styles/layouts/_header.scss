@@ -1,0 +1,20 @@
+.banner {
+  position: absolute;
+  width: 100%;
+  z-index: $zindex-fixed;
+
+  .nav {
+    li {
+      @extend .nav-item;
+    }
+
+    a {
+      @extend .nav-link;
+
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}

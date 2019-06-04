@@ -1,0 +1,10 @@
+.content-info {
+  padding-top: 150px;
+  padding-bottom: 25px;
+  background: transparent url(../images/bg/hero@1x.jpg) no-repeat top left;
+  background-size: cover;
+
+  @supports (clip-path: $clip-path-top-arrow) {
+    clip-path: $clip-path-top-arrow;
+  }
+}
