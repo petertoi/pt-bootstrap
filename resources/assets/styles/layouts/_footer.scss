@@ -7,4 +7,9 @@
   @supports (clip-path: $clip-path-top-arrow) {
     clip-path: $clip-path-top-arrow;
   }
+
+  .svg-maple {
+    width: 30px;
+    height: 30px;
+  }
 }
